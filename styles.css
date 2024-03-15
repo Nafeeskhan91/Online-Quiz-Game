@@ -1,0 +1,23 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.option {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #e1e147;
+    border: 1px solid #141111;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #45abd0;
+}
